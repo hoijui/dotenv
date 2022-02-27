@@ -7,7 +7,7 @@
 
 mod errors;
 mod find;
-mod iter;
+pub mod iter;
 mod parse;
 
 use std::env::{self, Vars};
